@@ -50,7 +50,7 @@ const App = () => {
       </div>
       <p className="color-name">
         Background Color :{" "}
-        <span>{backgroundColor ? { hexName } : "#ffffff"}</span>
+        <span>{backgroundColor ? `${hexName}` : "#ffffff"}</span>
       </p>
       <p>
         Try clicking on one of the colors above to change the background color
